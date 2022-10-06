@@ -139,7 +139,7 @@ img {
 }
 
 .half {
-  width: calc((900px + 1em) / 2);
+  width: calc((980px + 1em) / 2);
   max-width: calc(100vw - 2em);
   place-items: center;
 }
