@@ -79,6 +79,7 @@ iframe {
   box-shadow: 10px 10px 30px rgba(0, 0, 0, .12);
   border-radius: 1em;
 }
+
 iframe:hover {
   box-shadow: 0 3.1px 2.7px rgba(0, 0, 0, 0.13),
               0 7.8px 6.9px rgba(0, 0, 0, 0.09),
@@ -86,10 +87,18 @@ iframe:hover {
               0 32.9px 29.2px rgba(0, 0, 0, 0.058),
               0 90px 80px rgba(0, 0, 0, 0.04);
 }
+
+li > iframe{
+  min-width: 325px;
+}
+
 .wide-video {
   max-width: calc((750px + 2em) / 1.5);
   height: min-content;
   aspect-ratio: 16/9;
+}
+.youtube {
+  aspect-ratio: unset;
 }
 
 figure {
@@ -142,21 +151,9 @@ img {
   padding-bottom: 4em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.image-gallery ul {
+  justify-content: center;
+}
 
 
 
@@ -223,36 +220,4 @@ div.social {
 .copyright p {
   font-size: 0.9em;
   text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* For the width display, ignore this */
-
-.width-container {
-  display: none;
-}
-
-.display-width {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background-color: #E6E6E6;
-  padding: .6em;
-  font-size: .85em;
-  font-weight: bold;
-  color: black;
-}
-.display-width::after {
-  content: "px"
 }
