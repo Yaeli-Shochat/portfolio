@@ -145,7 +145,7 @@ img {
 }
 
 .image-gallery {
-  max-width: 980px;
+  max-width: calc(980px + 6em);
   margin: 0 auto;
   padding-top: 1em;
   padding-bottom: 4em;
