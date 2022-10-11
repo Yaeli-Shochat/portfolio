@@ -42,6 +42,20 @@ h2 {
   /* border: 2px solid green; */
 }
 
+.hero-video {
+  margin:0 auto; 
+  box-shadow: unset; 
+  width: calc(980px + 1.5em);
+  height: 565px;
+}
+@media (max-width: 688px) {
+  .hero-video {
+    width: calc(980px + 6em);
+    height: 270px;
+  }
+}
+
+
 ul {
   padding: 0;
   margin: 0;
